@@ -1,0 +1,95 @@
+.policy-section {
+  background: #000306;
+  padding-top: 112px;
+  padding-bottom: 60px;
+
+  @include media(desktop) {
+    padding-top: 200px;
+    padding-bottom: 120px;
+  }
+}
+
+.policy-main-title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    font-size: 52px;
+    letter-spacing: -0.04em;
+  }
+}
+
+.policy-title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.32;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    font-size: 18px;
+    line-height: 1.36;
+    letter-spacing: -0.04em;
+  }
+}
+
+.policy-text {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.32;
+  letter-spacing: -0.02em;
+  color: #fff;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  @include media(desktop) {
+    font-size: 18px;
+    line-height: 1.36;
+    letter-spacing: -0.04em;
+  }
+}
+
+.policy-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.policy-item {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.32;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-bottom: 8px;
+
+  &:last-child {
+    margin-bottom: 16px;
+  }
+
+  @include media(desktop) {
+    font-size: 18px;
+    line-height: 1.36;
+    letter-spacing: -0.04em;
+  }
+}
+
+.policy-span {
+  text-decoration: underline;
+}
+
+.policy-link {
+  text-decoration: underline;
+  word-wrap: break-word;
+}
