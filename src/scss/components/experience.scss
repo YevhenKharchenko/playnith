@@ -1,0 +1,56 @@
+.experience-section {
+  background: #fff;
+}
+
+.experience-bg-wrapper {
+  padding-top: 290px;
+  padding-bottom: 64px;
+  max-width: 374px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/experience/experience-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto;
+
+  @include media(desktop) {
+    padding-top: 132px;
+    padding-bottom: 132px;
+    max-width: 1440px;
+    background-image: url(../img/experience/experience-bg-desk.png);
+    background-position: center left;
+  }
+}
+
+.experience-container {
+  @include media(desktop) {
+  }
+}
+
+.experience-text-wrapper {
+  @include media(desktop) {
+    max-width: 571px;
+    margin-left: auto;
+  }
+}
+
+.experience-title {
+  color: #16151a;
+  text-align: left;
+
+  @include media(desktop) {
+    margin-bottom: 24px;
+  }
+}
+
+.experience-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #737373;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}

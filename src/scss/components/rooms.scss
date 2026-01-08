@@ -1,0 +1,135 @@
+.rooms-section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+  @include media(desktop) {
+    padding-top: 104px;
+    padding-bottom: 104px;
+  }
+}
+
+.rooms-container {
+  @include media(desktop) {
+  }
+}
+
+.rooms-title {
+  @include media(desktop) {
+  }
+}
+
+.rooms-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+  }
+}
+
+.rooms-list-item {
+  @include media(desktop) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 608px;
+    min-height: 671px;
+  }
+}
+
+.rooms-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.rooms-item-title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 4px;
+
+  @include media(desktop) {
+  }
+}
+
+.rooms-item-subtitle {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #de4547;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.rooms-item-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #c3c3c3;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.rooms-item-bottom-text {
+  margin-top: 24px;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    margin-bottom: 40px;
+  }
+}
+
+.rooms-item-features-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  @include media(desktop) {
+    gap: 24px;
+    justify-content: end;
+    margin-top: auto;
+  }
+}
+
+.rooms-features-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  @include media(desktop) {
+  }
+}
+
+.rooms-icon {
+  min-width: 20px;
+
+  @include media(desktop) {
+  }
+}
+
+.rooms-item-features-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #adadaf;
+
+  @include media(desktop) {
+  }
+}
