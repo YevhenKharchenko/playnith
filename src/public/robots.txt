@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://playmatrix.space/sitemap.xml
+Sitemap: https://playnith.online/sitemap.xml
