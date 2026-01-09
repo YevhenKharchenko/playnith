@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playnith</title>
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://playnith.online" />
+    <link rel="icon" type="image/png" href="/playnith/favicon.png" />
+    
+    <script type="module" crossorigin src="/playnith/commonHelpers3.js"></script>
+    <link rel="modulepreload" crossorigin href="/playnith/assets/header-3607949e.js">
+    <link rel="stylesheet" href="/playnith/assets/header-0cb30e4c.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <nav class="nav">
+      <a class="header-logo-link" href="./">
+        <img
+          class="header-logo-img"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABQCAYAAADm4nCVAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAiUSURBVHgB7Zw/c9s2FMAf5Q6dYuc69a53oeLMjfwJIl9jJ1ucvT3TU6+TlU9geW2HOHN7Z/kTxNkk21czW7coe3piPoE9NldLKJ74YEEQCP4RSVE1fnc4yiDAP3jAew8PoAEsFovFYrFYLJbScdQMxphrKH/tOM617gSv5/GDy1OflzmFkuD3XeMHTMDvG6Qtx/Mb/IAp4Pk+ZLt3ZLukhsUz4OlAU++Szh9DifD7daRnaxrKNaVyrpTfprxLTZ0WnW9GXNOLqpuUryA9Lk/4UC6X+h5Ui2P+XBspe+MVTwFPujr7EL4v4kMB1Azn9hwJ/vd9njZ4EurFM/W4BeHydJCmAn+1NzzVeXoJCyDxCKBe1eeNjr2+CaHu24WEPYP05Q5Pq5T1UdW5QjXE6HKXfkbpXVQbJ/xcH5I/15QeZ7N2cE3Oi3o+ulaTrof4pneJeiCBZygj9O4HKe8yygbwvNcs2p7sSOWuKL9tuPeAyuyqzyKd+6Cpl8gG4DkWj0tlb20AT/vS88u8BgMmFZSEWF3LQoPdksr7MBk1Lk9v2USVvaHjfsS1PJjo5PeaZxE2qWESYgJ8SuL9AilPzhc0eTqCsOeLsoJWnBCmkCTnGcoMqMyplHdJecdSntybjlg4ROVzV3IdPC+Vb2ruq7tHR+nBR9I1GlK5LF7QgM61I9rBk645kJ+Z3k/Uv5LfXSbVCKCLojRdynprKk/6Dw13i/9uyTqbzp3Qn03KEyMEOVDvLcpJ9XS0IeyFSJkucVu2afR+YkQK+zeDyQgfM7NPf8pvYmoI8SBoDMcGkU0mPZgewKRBZQ4pH3vsmiQ0UdY4YcLyLHQUsEePVRHPa0PxvNc8i8/vL/50dZWy2ABskMOkbhuNGlQL6G+jcUShoo7HHjEzLKlxRaO3pFNiRCQRug8Te3Igq6KiMHg7gameaQTgC6ghhSCNW0VqA3uiKz2MD+GI+Axhr96PuDc2OHo6YiYqrtGBZLR5ekH1UOivoIKYBNBPGxvR4MGk4TY1fv9ORD30KFAALjW+R/mJ/WpVFUHKCVpZzOuGxuHS8V2EMJ/oKinGeF8q14EUKKqoCRWkaAEIXf5YcUHXFG9KxyEdd6hckMToa2hDjB42ENBxl5mjxJkpWgDChrg84UxVeFYDCA2sH1VRMcYAGYNhNJqyBg3f0dHlaUB+/SBPYRQqAGpENH4BhC/hwUSfY/5hzCXeRPzO8hyp6/N6aIvwGUVHcME8aqsJqZwmzRwbUbNCTb2WmGXCgqHnbhSliioJUwJvlhJhEbEbS0lIQbZSlzgthKR+XsD/GAcqCJusnqEn0gGLpShmRsDg+XN3OJyetvOIaqCW++rGPLus+13jeUuIVgWhENjNqM3Hf3HuH2PXUDNvH3G44J3Ve/DdH7/DyuoqzEkA+fAZ5ieAcD3l2mgDShFEDN/+9it8/fh7WFKwgwUQht8xfYQwyjxZGUxylUUJ4ptffoZ7LxeyXScLAUzWOfCYKHSeygu6FQQudDhOXDghAHXYo3ejq6fJv//Tj7DGk4QP8bEjFZeOqL/u098P6DceE4VEFGJ7dRoyuaHCUNdgvOXENVy8AyvOYb1rNsiDp8/eMmeyaD3igbP1sy7+VFfLvKiQNLmuLoSLL3h8IP3O0tBIABl6dRrmngd82nruzSOIwfb2AWNTi+b9h+e9DWpQsZolwF62KXa90Ypa3LpCEnLt1WnIbSL26YftnVrNMTaGKojB1rN9Fi4/CgJnxdkU5zVryuMyEAohICFdQToCKLhXpyH3mXDciOAv69XPuieDra0Gg5q8hXCq8QW0owGFIKsRbLhNWvfFc03NrRbWq9NQWCji76fbuB/nQLlZp37e2xsb8yGb6tkOjDbq5+d93bVYuEtPDcp1cHs87VqT74P7c7xF9uo0FLYixmZHQIDqR9f4o6GzF9X4CMWDVA8IF3ew4X311svS+EghAvi0teXVlDkD7k5D9cIbH3uyK/K5AT589Ge3E3dN2t12qmRjHno7slpJvOJWBQoRQA1qs6oH9T73eEDS19j46xfdNiQHF9cDJe9IycPGb8CSkLsNiPJsYDTald1NHuc5rV/0Uk9zyTNC423q5a9oQb3y5DoCxvp9ej9nqDqG7IXi6wdw8yXTVhHS73GCW5pFnFwFMAzDFK74e+z383mt1tf3/czuoLTdJYqlsQO5CQB7v2J4g6HD3vGe37nN4SFona+fBVIxUXt9lsYO5CYANhxNfazBe+BJjTlTn+aMarCXR+ML8KMPoG8PNDRhCchFAOh28uaYfA7kjBcbcDS4t3nobp6dnUL+oD0INPlPYAnIRQCK2xnURuOjKzIyuJuJkYyyalOWwg7MLQDy7V05byq0zJyTohpfQNFR1SgvhR2YSwBjt5PNfH/lSr/7jy66HpRARLhiByrOXAIgtzMKdDdLXU+kcIW8YFP5+UDmmbAmnCwT5OVuZkEJUderHJzLPAJ440d+I8xDyy8X1fgEjjzhnlZaDWUSQOh26hdcGINXptByGdCii3BPm1BhUqsgXTxfUKS7mQWxpIn/jgYqSvoRMGLyPzGaZONOhgo1PiLmCGV8qJ2V9PuChprPhRj4Dy96m2BJTaoREOF2Bs7Nl6XZvlY1EgtAt8wIOYSW7zqJBaAuM+YZWr7LJBIALjOCYnjzDi3fVWIFoFtmLDC0fOeIFYC6zFg1X3/Zif9AQ3I7MbRcVnTzrmAcAcoyY3/l5p8WWHIlUgDKMuM4tGzdzfypRZ+4dTsD624Wh/ZfloUfTYSGNwwtnwdgKQTtd8LC8GJoef2itxRb/JaVGRUk4j2hu2kbv2imRoBYZsTQ8qPznvV4SmBqBNAyY982fnncCoCWGcH594uN65fIWADjjbVQ27Wh5fIJR8BohI1vo5sLYGX81Tt3edZ7vb/AUj4oALAsjP8AhQXLnjrwVTMAAAAASUVORK5CYII="
+          alt="Logo"
+          width="48"
+          height="40"
+      /></a>
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#home">Home</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#rooms">Rooms</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#experience">Experience</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#faq">FAQ</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#contact">Contact</a>
+        </li>
+      </ul>
+      <button class="nav-btn" type="button" aria-label="Open mobile menu">
+        <svg class="menu-icon" width="40" height="40">
+          <use href="/playnith/assets/sprite-2537060f.svg#icon-menu"></use>
+        </svg>
+      </button>
+      <button class="close-btn" type="button" aria-label="Close mobile menu">
+        <svg class="close-icon" width="40" height="40">
+          <use href="/playnith/assets/sprite-2537060f.svg#icon-close"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+    <div class="context-menu">
+  <nav class="context-nav">
+    <ul class="context-nav-list">
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#home">Home</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#rooms">Rooms</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#experience"
+          >Experience</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#faq">FAQ</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+    <main>
+      <section class="section hero-section" id="home">
+  <div class="hero-bg-wrapper">
+    <div class="container hero-container">
+      <div class="hero-content-wrapper">
+        <h1 class="hero-main-title">
+          Step Into the
+          <span class="hero-title-span">Mystery</span>
+        </h1>
+        <p class="hero-text">Two rooms. One unforgettable adventure</p>
+        <a class="hero-btn" href="#">Discover the Rooms</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section rooms-section" id="rooms">
+  <div class="container rooms-container">
+    <div class="rooms-text-wrapper">
+      <h2 class="section-title rooms-title">
+        Room <span class="section-title-span">Overview</span>
+      </h2>
+      <ul class="rooms-list">
+        <li class="rooms-list-item">
+          <picture>
+            <source
+              srcset="/playnith/assets/rooms-img1-desk-915d1a3e.png "
+              media="(min-width: 1440px)"
+              width="608"
+              height="350" />
+            <source
+              srcset="/playnith/assets/rooms-img1-mob-2194d88f.png "
+              width="343"
+              height="350" />
+            <img
+              class="rooms-img"
+              src="/playnith/assets/rooms-img1-mob-2194d88f.png"
+              alt="Screenshot of the game"
+              width="343"
+              height="350"
+              loading="lazy"
+          /></picture>
+          <h3 class="rooms-item-title">The Interrogation</h3>
+          <p class="rooms-item-subtitle">Tense and controlled</p>
+          <p class="rooms-item-text">
+            We obsessed over every little thing for months - I mean, we even
+            made sure the floorboards creak just right and the lights flicker at
+            the perfect moments. Detailed props and realistic settings
+          </p>
+          <p class="rooms-item-text rooms-item-bottom-text">
+            Goal: prove your innocence and solve the case. You need to keep your
+            cool under pressure and noticing the little details.
+          </p>
+          <div class="rooms-item-features-wrapper">
+            <div class="rooms-features-item">
+              <svg class="rooms-icon" width="20" height="20">
+                <use href="/playnith/assets/sprite-2537060f.svg#icon-users"></use>
+              </svg>
+              <p class="rooms-item-features-text">3-6</p>
+            </div>
+            <div class="rooms-features-item">
+              <svg class="rooms-icon" width="20" height="20">
+                <use href="/playnith/assets/sprite-2537060f.svg#icon-time"></use>
+              </svg>
+              <p class="rooms-item-features-text">60 min</p>
+            </div>
+            <div class="rooms-features-item">
+              <svg class="rooms-icon" width="20" height="20">
+                <use href="/playnith/assets/sprite-2537060f.svg#icon-target"></use>
+              </svg>
+              <p class="rooms-item-features-text">Psychological pressure</p>
+            </div>
+          </div>
+        </li>
+        <li class="rooms-list-item">
+          <picture>
+            <source
+              srcset="/playnith/assets/rooms-img2-desk-8ae8a745.png "
+              media="(min-width: 1440px)"
+              width="608"
+              height="350" />
+            <source
+              srcset="/playnith/assets/rooms-img2-mob-d5cae618.png "
+              width="343"
+              height="350" />
+            <img
+              class="rooms-img"
+              src="/playnith/assets/rooms-img2-mob-d5cae618.png"
+              alt="Screenshot of the game"
+              width="343"
+              height="350"
+              loading="lazy"
+          /></picture>
+          <h3 class="rooms-item-title">The Old Post Office</h3>
+          <p class="rooms-item-subtitle">Quiet and unsettling</p>
+          <p class="rooms-item-text">
+            Players explore a room filled with post office objects and
+            mailboxes. Sorting letters reveals hidden secrets about the town.
+          </p>
+          <p class="rooms-item-text rooms-item-bottom-text">
+            Goal: uncover a dark mystery through investigation and
+            puzzle-solving. Emphasis on exploration, discovery, and narrative
+          </p>
+          <div class="rooms-item-features-wrapper">
+            <div class="rooms-features-item">
+              <svg class="rooms-icon" width="20" height="20">
+                <use href="/playnith/assets/sprite-2537060f.svg#icon-users"></use>
+              </svg>
+              <p class="rooms-item-features-text">2-6</p>
+            </div>
+            <div class="rooms-features-item">
+              <svg class="rooms-icon" width="20" height="20">
+                <use href="/playnith/assets/sprite-2537060f.svg#icon-time"></use>
+              </svg>
+              <p class="rooms-item-features-text">60 min</p>
+            </div>
+            <div class="rooms-features-item">
+              <svg class="rooms-icon" width="20" height="20">
+                <use href="/playnith/assets/sprite-2537060f.svg#icon-target"></use>
+              </svg>
+              <p class="rooms-item-features-text">Exploration</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section experience-section" id="experience">
+  <div class="experience-bg-wrapper">
+    <div class="container experience-container">
+      <div class="experience-text-wrapper">
+        <h2 class="section-title experience-title">
+          Experience & <span class="section-title-span">Atmosphere</span>
+        </h2>
+        <p class="experience-text">
+          We obsessed over every little thing for months - I mean, we even made
+          sure the floorboards creak just right and the lights flicker at the
+          perfect moments. Detailed props and realistic settings
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section cta-section" id="cta">
+  <div class="cta-bg-wrapper">
+    <div class="container cta-container">
+      <picture>
+        <source
+          srcset="data:image/png;base64,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 "
+          media="(min-width: 1440px)"
+          width="92"
+          height="58" />
+        <source srcset="data:image/png;base64,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 " width="70" height="44" />
+        <img
+          class="cta-img"
+          src="data:image/png;base64,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"
+          alt="Screenshot of the game"
+          width="70"
+          height="44"
+      /></picture>
+      <h2 class="cta-title">Can You Solve the Mystery?</h2>
+      <a class="hero-btn cta-btn" href="#">Contact to Book</a>
+    </div>
+  </div>
+</section>
+
+      <section class="section faq-section" id="faq">
+  <div class="container faq-container">
+    <h2 class="faq-title">FAQ</h2>
+    <ul class="faq-list">
+      <li class="faq-list-item">
+        <button class="faq-top-text-btn">
+          <span class="faq-btn-text">How many players can participate?</span>
+          <span class="faq-toggle-symbol"
+            ><svg class="faq-icon" width="24" height="24">
+              <use href="/playnith/assets/sprite-2537060f.svg#icon-caret"></use></svg
+          ></span>
+        </button>
+        <p class="faq-bottom-text">
+          We can fit anywhere from 3-8 people depending on the room - just shoot
+          us an email and we'll let you know what works best.
+        </p>
+      </li>
+      <li class="faq-list-item">
+        <button class="faq-top-text-btn">
+          <span class="faq-btn-text"
+            >Are the rooms suitable for beginners?</span
+          >
+          <span class="faq-toggle-symbol"
+            ><svg class="faq-icon" width="24" height="24">
+              <use href="/playnith/assets/sprite-2537060f.svg#icon-caret"></use></svg
+          ></span>
+        </button>
+        <p class="faq-bottom-text">
+          Yes. Don't worry if you're new to this - we've got easier puzzles to
+          get you started, plus some real brain-busters for the pros.
+        </p>
+      </li>
+      <li class="faq-list-item">
+        <button class="faq-top-text-btn">
+          <span class="faq-btn-text">Is prior knowledge required?</span>
+          <span class="faq-toggle-symbol"
+            ><svg class="faq-icon" width="24" height="24">
+              <use href="/playnith/assets/sprite-2537060f.svg#icon-caret"></use></svg
+          ></span>
+        </button>
+        <p class="faq-bottom-text">
+          No. Don't worry, we'll walk you through everything you need to know
+          once you're in there.
+        </p>
+      </li>
+      <li class="faq-list-item">
+        <button class="faq-top-text-btn">
+          <span class="faq-btn-text">How long does each room take?</span>
+          <span class="faq-toggle-symbol"
+            ><svg class="faq-icon" width="24" height="24">
+              <use href="/playnith/assets/sprite-2537060f.svg#icon-caret"></use></svg
+          ></span>
+        </button>
+        <p class="faq-bottom-text">
+          Usually takes about an hour, but some groups fly through it while
+          others... well, let's just say they take their time!
+        </p>
+      </li>
+      <li class="faq-list-item">
+        <button class="faq-top-text-btn">
+          <span class="faq-btn-text">Can we replay a room?</span>
+          <span class="faq-toggle-symbol"
+            ><svg class="faq-icon" width="24" height="24">
+              <use href="/playnith/assets/sprite-2537060f.svg#icon-caret"></use></svg
+          ></span>
+        </button>
+        <p class="faq-bottom-text">
+          Yes. Sure, you can come back and do it again - though the puzzles will
+          be pretty much the same, so it might not be as challenging the second
+          time around.
+        </p>
+      </li>
+      <li class="faq-list-item">
+        <button class="faq-top-text-btn">
+          <span class="faq-btn-text">How do we book a room?</span>
+          <span class="faq-toggle-symbol"
+            ><svg class="faq-icon" width="24" height="24">
+              <use href="/playnith/assets/sprite-2537060f.svg#icon-caret"></use></svg
+          ></span>
+        </button>
+        <p class="faq-bottom-text">
+          All booking inquiries are handled via email: info@playnith.online
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="section contact-section" id="contact">
+  <div class="contact-bg-wrapper">
+    <div class="container contact-container">
+      <h2 class="contact-title">Contact</h2>
+      <p class="contact-text">
+        All booking requests and questions are handled via email. Reach out to
+        us and we’ll guide you through availability, group size, and room
+        details.
+      </p>
+      <a href="mailto:info@playnith.online" class="contact-btn"
+        >info@playnith.online
+      </a>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer" id="footer">
+  <div class="container footer-container">
+    <nav class="footer-nav">
+      <ul class="footer-list">
+        <li class="footer-list-item">
+          <a class="footer-link" href="./privacy-policy.html">Privacy Policy</a>
+        </li>
+        <li class="footer-list-item">
+          <a class="footer-link" href="./terms-and-conditions.html"
+            >Terms and Conditions</a
+          >
+        </li>
+        <li class="footer-list-item">
+          <a class="footer-link" href="./cookies-policy.html">Cookies Policy</a>
+        </li>
+      </ul>
+    </nav>
+    <p class="footer-text">© 2026 — All rights reserved. playnith.online</p>
+  </div>
+</footer>
+
+    <section id="cookie-banner" class="cookie-banner-section">
+  <div class="cookie-banner-wrapper">
+    <p class="cookie-banner-text">
+      We use cookies to enhance your experience while using our website. By
+      continuing to use this site, you consent to our use of cookies.
+    </p>
+    <div class="cookie-banner-buttons">
+      <button class="cookie-accept-btn" id="cookie-accept">Accept</button>
+      <button class="cookie-decline-btn" id="cookie-decline">Reject</button>
+    </div>
+  </div>
+</section>
+
+
+    
+  </body>
+</html>
